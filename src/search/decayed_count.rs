@@ -7,7 +7,7 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 
 // 분류된 json 파일로부터 decayed_count [true:false] count 
-pub fn decayed_count() {
+pub fn run() {
     let image_dir = r#"C:\storage\image\"#;
     let json_dir = r#"C:\storage_copy\json\"#;
 

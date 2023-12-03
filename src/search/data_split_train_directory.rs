@@ -13,7 +13,7 @@ use rand::thread_rng;
 // |-- test_data/
 // |   |-- image/
 // |   |-- json/
-pub fn data_split_train_directory() {
+pub fn run() {
     let origin_dir = r#"C:\storage\image\"#;
     let output_dir = r#"C:\Dataset\train_data\image\"#;
     println!("path :: {}", origin_dir);

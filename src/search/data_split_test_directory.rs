@@ -7,7 +7,7 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 
 //  test data true: 200개, false: 400개 분류
-pub fn data_split_test_directory() {
+pub fn run() {
     let image_dir = r#"C:\storage\image\"#;
     let json_dir = r#"C:\storage_copy\json\"#;
     let output_dir = r#"C:\Dataset\test_data\image\"#;

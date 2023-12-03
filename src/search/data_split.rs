@@ -7,7 +7,7 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 
 // 데이터 카운트
-pub fn data_split() {
+pub fn run() {
     let image_dir = r#"C:\storage\image\"#;
     let json_dir = r#"C:\storage_copy\json\"#;
 

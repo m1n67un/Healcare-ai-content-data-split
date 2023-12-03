@@ -10,7 +10,7 @@ use rand::thread_rng;
 // Dataset/
 // |-- image/
 // |-- json/
-pub fn split_init() {
+pub fn run() {
     // 초기 image 디렉토리
     let origin_dir = r#"C:\storage\image\"#;
 
